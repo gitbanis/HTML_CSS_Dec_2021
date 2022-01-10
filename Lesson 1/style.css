@@ -1,0 +1,16 @@
+body  {
+    width: 1000px;
+    margin: 0 auto;
+}
+.bold-text {
+    font-weight: bold;
+}
+#bigpic {
+    width: 800px;
+}
+#fm {
+    width: 500px;
+}
+h1 {
+    text-align: center;
+}
