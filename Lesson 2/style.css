@@ -2,7 +2,15 @@ body {
     margin: 0 auto;
     width: 100%;
 }
-
+.menu-w > a {
+    font-family: 'Roboto', sans-serif;
+    color: #d5b791;
+    text-decoration: none;
+}
+.menu-w {
+    padding-top: 25px;
+    padding-left: 25px;
+}
 /* _____________________CLASSWORK #1__________*/
 .classwork-1 {
     background: #252525;
@@ -142,6 +150,5 @@ body {
     height: 300px;
     background: #8886ab;
 }
-
 
 
