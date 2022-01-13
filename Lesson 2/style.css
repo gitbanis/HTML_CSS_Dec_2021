@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* _____________________CLASSWORK #1__________*/
+.classwork-1 {
+    background: #252525;
+    width: 100%;
+    height: 800px;
+}
+.container {
+    padding-top: 10%;
+    padding-left: 40%;
+}
+.name {
+    box-sizing: border-box;
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    border: 6px solid white;
+    border-radius: 50px;
+    width: 300px;
+    height: 80px;
+    margin: 20px;
+}
+#orange {
+    border-color: #fc6d1d;
+    color: #fc6d1d;
+}
+#blue {
+    border-color: #2cfbee;
+    color: #2cfbee;
+}
+#pink {
+    border-color: #f3519f;
+    color: #f3519f;
+}
+#red {
+    border-color: #ff3e3e;
+    color: #ff3e3e;
+}
+.cw {
+    border: 5px solid blueviolet;
+    margin: 0;
+}
+
+/* _____________________CLASSWORK #2__________*/
+.classwork-2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 150px;
+    margin: 0 auto;
+    /*background: #5d30a1;*/
+    width: 900px;
+    min-height: 700px;
+}
+.silverbox {
+    margin-left: 200px;
+    box-shadow: -50px -45px 75px 25px #d5b791;
+    background: #808080;
+    width: 600px;
+    height: 400px;
+}
+.red-border {
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-left: #ff3e3e 3px solid;
+}
+
+/* _____________________HOMEWORK #1__________*/
+.homework-1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #d5b791;
+    margin: 0 auto;
+    width: 500px;
+
+}
+.orangebox {
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 75px;
+    margin-left: 125px;
+    background: #ffaa00;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding-top: 100px;
+}
+#box-a {
+    box-shadow: 15px 15px #464646;
+}
+#box-b {
+    box-shadow: 15px 15px 7px #464646;
+}
+#box-c {
+    box-shadow: 25px 25px 7px #464646;
+}
+#box-d {
+    box-shadow: 25px 25px 7px #9e9e9e;
+}
+#box-e {
+    border-radius: 7px;
+    box-shadow: 15px 15px 7px #464646;
+}
+#box-f {
+    border-radius: 7px;
+    box-shadow: 15px 15px 7px #9e9e9e;
+}
+/* _____________________HOMEWORK #2__________*/
+.lesson-2-html {
+    height: 900px;
+    background: #d5b791;
+    padding-bottom: 200px;
+}
+.lesson-2-html > h1 {
+    background: #892726;
+    color: white;
+    text-align: center;
+}
+.bg-silver {
+    padding: 25px;
+    background: #c0c0c0;
+}
+.bg-blue {
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #6395ec;
+}
+.greenbox {
+    width: 300px;
+    height: 300px;
+    background: #6bba67;
+}
+.bluebox {
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    background: #8886ab;
+}
+
+
+
