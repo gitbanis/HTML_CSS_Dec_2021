@@ -1,0 +1,462 @@
+body {
+    width: 100%;
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 100%;
+}
+
+
+/*------------------Wrap 1-----------------------------*/
+.bg {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #5e00af, #bd45ba);
+    min-height: 200px;
+    flex-grow: 1;
+}
+.wrap1 {
+    box-shadow: -5px 5px 10px 1px #5e5e5e;
+    padding: 3px;
+    gap: 2px;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 800px;
+    background: #dedede;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.a-box {
+    border-radius: 10px 10px 0 0;
+    min-width: 100%;
+}
+.flex-cont {
+    gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.b-box {
+    min-width: 100%;
+}
+.c-box {
+    border-radius: 0 0 0 10px;
+}
+.f-box {
+    border-radius: 0 0 10px 0;
+}
+
+
+/*------------------Wrap 2-----------------------------*/
+
+.wrap2 {
+    gap: 2px;
+    padding: 2px;
+    box-shadow: -5px 5px 10px 1px #5e5e5e;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: #dedede;
+    width: 70%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg2 {
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    background: linear-gradient(45deg, #73254d, #b21b94);
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-cont-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 2px;
+}
+.a-box-2 {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.b-box-2, .c-box-2, .d-box-2, .e-box-2, .f-box-2, .g-box-2 {
+    min-width: 30%;
+}
+.h-box-2 {
+    border-radius: 0 0 10px 0;
+}
+.e-box-2 {
+    border-radius: 0 0 0 10px;
+}
+
+
+/*------------------Kabobs.html-----------------------------*/
+.wrap3 {
+    gap: 10px;
+    margin-top: 20px;
+    background: #ffffff;
+    min-height: 1200px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg3 {
+    flex-shrink: 0;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: anywhere;
+    background: #2269bb;
+}
+.home, .about {
+    min-width: 45%;
+    flex-grow: 1;
+}
+.kabobs {
+    width: 100%;
+}
+.shishkabobs, .bbq-kabobs, .summer-kabobs {
+    background: #16457a;
+    width: 32%;
+    flex-grow: 1;
+}
+
+
+/*------------------FUTURED SERVICES-----------------------------*/
+.wrapper-2 {
+    display: flex;
+    flex-direction: column;
+}
+.futured-services {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    /*background: #d5b791;*/
+}
+.bg4 {
+    margin: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(141, 141, 141, 0.35);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    width: 350px;
+    height: 460px;
+    /*background: linear-gradient(45deg, #73254d, #b21b94);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3 {
+    color: #ba7c67;
+}
+.flex-fs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.futured-items-1 > i,
+.futured-items-2 > i,
+.futured-items-3 > i,
+.futured-items-4 > i {
+    font-size: 45px;
+    color: #999999;
+}
+.futured-items-1 > p,
+.futured-items-2 > p,
+.futured-items-3 > p,
+.futured-items-4 > p {
+    color: #626060;
+}
+.futured-items-1 > button,
+.futured-items-2 > button,
+.futured-items-3 > button,
+.futured-items-4 > button {
+    border-color: #55c3b6;
+    color: white;
+    border-radius: 5px;
+    background: #55c3b6;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+
+}
+
+
+/*------------------FUTURED SERVICES-RESPONSIVE DESIGN----------------------------*/
+.wrap4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    /*background: #6bba67;*/
+}
+.box-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    /*background: #d5b791;*/
+}
+.icon {
+    background: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+}
+.icon {
+    color: #ec9114;
+}
+.block {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background: #ffffff;
+    /*padding-top: 75px;*/
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.baton > button {
+    font-size: 24px;
+    width: 220px;
+    height: 60px;
+}
+.content-block > p {
+    padding-bottom: 25px;
+    color: #8f8f8f;
+    line-height: 1.6;
+}
+.content-block > h3 {
+    color: black;
+    font-weight: lighter;
+    font-size: 28px;
+}
+.content-block {
+    padding-top: 45px;
+}
+
+
+/*------------------HOMEWORK LESSON 3----------------------------*/
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    background: #d5b791;
+    min-height: 100vh;
+    width: 90%;
+    box-sizing: border-box;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    background: #e6f7b0;
+}
+#content-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    /*background: #6bba67;*/
+    gap: 20px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    background: #ffffca;
+}
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 400px;
+    height: 100%;
+    background: #ffb7ff;
+}
+#posts {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    height: 100%;
+    /*background: #2cfbee;*/
+}
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    background: #9fe2ff;
+}
+
+
+/*------------------HOMEWORK LESSON 3 WIDGETS----------------------------*/
+
+.wrapper4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+    height: 100vh;
+    /*background: #6bba67;*/
+
+}
+.ta {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-widgets {
+    width: 100%;
+    height: 350px;
+    background: #2269bb;
+}
+.widgets-items {
+    height: 380px;
+    display: flex;
+    gap: 20px;
+
+}
+.widg-item {
+    background: #16457a;
+    height: 100%;
+    width: 30%;
+    flex-grow: 1;
+}
+.contact {
+    height: 500px;
+    width: 100%;
+    background: #2269bb;
+}
+/*------------------HOMEWORK LESSON-3-WEB----------------------------*/
+.wrapper5 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98%;
+    height: 100vh;
+    background: #d5b791;
+}
+.header-web {
+    height: 100px;
+    width: 100%;
+    background: #0c65a7;
+}
+.nav-web {
+    height: 100px;
+    width: 100%;
+    background: #124b78;
+}
+.flex-cont-web {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background: #2cfbee;
+}
+.main-web {
+    width: 70%;
+    height: 100%;
+    background: #16a2c5;
+}
+
+.footer-web {
+    height: 100px;
+    width: 100%;
+    background: #7bcde3;
+}
+.a-side-web {
+    flex-grow: 1;
+    background: #5275ad;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+/*------------------HOMEWORK LESSON-3-SIX-CONTENTBOX-----------------------------*/
+.wrapper6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    background: #06bcd4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.flex-develop-items {
+    display: flex;
+    width: 500px;
+    height: 150px;
+    background: #fefefe;
+    border-radius: 10px;
+}
+div.icon-web-dev {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #808080;
+    padding-left: 10px;
+}
+.web-dev-cont > h3 {
+    padding-top: 10px;
+    color: #f6ab37;
+}
+.web-dev-cont > p {
+    color: #808080;
+}
+
+
