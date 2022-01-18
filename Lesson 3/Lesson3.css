@@ -473,3 +473,6 @@ h3 {
 .content-block {
     padding-top: 45px;
 }
+.wrap4 > h3 {
+    color: #ec9114;
+}
