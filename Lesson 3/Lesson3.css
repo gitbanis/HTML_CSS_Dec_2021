@@ -17,6 +17,7 @@ body {
     align-items: center;
     width: 90%;
     box-shadow: -1px 1px 0 2px;
+    max-width: 1200px;
 }
 
 /*------------------Lesson3 Homework #1---------------------*/
