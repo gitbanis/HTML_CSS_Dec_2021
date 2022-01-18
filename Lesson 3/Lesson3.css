@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 90%;
     box-shadow: -1px 1px 0 2px;
 }
@@ -21,6 +22,7 @@ body {
 /*------------------Lesson3 Homework #1---------------------*/
 /*Wrap 2-*/
 .h2-text {
+    color: #606060;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -401,12 +403,19 @@ h3 {
 }
 /*------------------Lesson3 Homework #7---------------------*/
 .wrap4 {
+    padding-top: 70px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
     box-sizing: border-box;
     margin-top: 50px;
     width: 100%;
+}
+#hospital-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .box-big {
     display: flex;
