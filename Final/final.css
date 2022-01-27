@@ -541,7 +541,7 @@ body {
 .social_apps {
     gap: 24px;
 }
-/*----------------------Accordion---------------------*/
+/*----------------------Accordion_(stolen code)---------------------*/
 .accordion {
     max-width: 588px;
     overflow: hidden;
